@@ -1,0 +1,85 @@
+#aboutme-1 {max-width: 700px;
+            text-align: center;
+            padding-left: 370px;
+            font-size: 115%;}
+
+#header {border-bottom:3px solid #060404;
+            text-align: center;
+            background-color: #e2dfdf;
+            padding-bottom: 5px;}
+
+.aboutme-body {text-align: center;
+                border-bottom: 1px solid black;
+                padding-bottom: 5px;}
+
+#resume {border: 1px black solid;
+            margin-left: 50px;
+            margin-right:50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 5px;}
+
+#email-number-city {border-bottom: 1px black solid;
+                    padding-bottom: 8px;}
+
+#education-title {text-align: center;
+                    padding-bottom: 8px;}
+
+.school {font-size: 120%;
+        list-style-position: inside;
+        padding-left: 365px;}
+
+#employment-title {border-top: 1px black solid;
+                    padding-top: 20px;
+                    padding-bottom: 8px;}
+
+#comp-skills-title {border-top: 1px black solid;
+                    padding-top: 5px;}
+
+.objective {text-align: center;}
+
+.resume-employment {list-style-position: inside;
+                    padding-right: 38px;}
+
+#resume-education {border-top: 1px black solid;
+                    padding-top: 5px;
+                    padding-right: 38px;}
+li {text-align: center;
+    list-style-position: inside;
+    width: 450px;}
+
+ul {margin: 0 auto;}
+
+.employment-publix-roles {padding-left: 363px;
+                        line-height: 20px;}
+
+.employment-publix-info {line-height: 8px;}
+
+.employment-guildquality-roles {padding-left: 363px;
+                                line-height: 20px;}
+
+.employment-guildquality-info {line-height: 8px;}
+
+.employment-affs-roles {padding-left: 363px;
+                        line-height: 20px;}
+
+.employment-affs-info {line-height: 8px;}
+
+.employment-powers-roles {padding-left: 363px;
+                        line-height: 20px;}
+
+.employment-powers-info {line-height: 8px;}
+
+.employment-chilis-roles {padding-left: 363px;
+                        line-height: 20px;}
+
+.employment-chilis-info {line-height: 8px;}
+
+.employment-callityours-info {line-height: 8px;}
+
+.employment-callityours-roles {padding-left: 363px;
+                        line-height: 20px;}
+
+#comp-skills-title {padding-top: 10px; padding-right: 25px;}
+
+#comp-skills-body {padding-left: 363px;}
