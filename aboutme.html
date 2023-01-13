@@ -5,18 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <style>
-        #header {border-bottom:3px solid #060404; text-align: center; background-color: #e2dfdf;}
-        .aboutme-body {text-justify: inter-word; text-align: center; border-bottom: 1px solid black;}
-        #resume {border: 1px black solid;}
-        #email-number-city {border-bottom: 1px black solid;}
-        #education-title {text-align: center;}
-        .school {font-size: 120%; list-style-position: inside;}
-        #employment-title {border-top: 1px black solid; padding-top: 20px;}
-        #comp-skills-title {border-top: 1px black solid;}
-
-        #resume-education {border-top: 1px black solid;}
-    </style>
+    <link rel="stylesheet" type="text/css" href="../static/stylesheets/aboutMeStylesheet.css">
 </head>
 
 <div id="header">
@@ -28,7 +17,8 @@
 </div>
 
 <body class="aboutme-body">
-    <p>I am Alexander Bringuel. I am 23 years old and interested in pursuing a career in software development. I have an associates degree in Business Administration from Georgia Military College, and I am currently pursuing a bachelors degree in Computer Information Systems. I am on track to graduate in Fall of 2024.</p>
+    <p id="aboutme-1">
+        Hello! I am Alexander Bringuel. I am 23 years old and interested in pursuing a career in software development. I have an associates degree in Business Administration from Georgia Military College, and I am currently pursuing a bachelors degree in Computer Information Systems. I am on track to graduate in Fall of 2024.</p>
     <br>
 </body>
 
@@ -97,72 +87,118 @@
 
     </ul>
 
-    <ul>
+    <ul class="resume-employment" id="resume-employment-ul">
 
         <h2 id="employment-title"><b>EMPLOYMENT</b></h2>
 
-        <p>Publix Supermarkets, Fayetteville, GA October 2021 – present</p>
-        <p>Grocery Team Leader</p>
+        <h3 id="employment-publix" class="employment-publix-info"><u>Publix Supermarkets</u></h3>
+        <p id="employment-publix-location" class="employment-publix-info"><i>Fayetteville, GA</i><p/>
+        <p id="employment-publix-date" class="employment-publix-info"><i>October 2021 – present</i></p>
+        <p id="employment-publix-position" class="employment-publix-info"><i>Grocery Team Leader</i></p>
 
-        <li>
+        <li class="employment-publix-roles">
             Managed a team of 30 employees and led them through the day-to-day operations.
+        </li>
+        <li class="employment-publix-roles">
             Provided premier customer service and found beneficial solutions for customers and Publix.
+        </li>
+        <li class="employment-publix-roles">
             Loaded and unloaded trucks and managed inventory.
         </li>
 
+        <br><br>
 
-        <p>Powers Heating and Air, Peachtree City, GA January 2021 – July 2021</p>
-        <p>HVAC Installation Helper</p>
 
-        <li>
+        <h3 id="employment-powers" class="employment-powers-info"><u>Powers Heating and Air</u></h3>
+        <p id="employment-powers-location" class="employment-powers-info"><i>Peachtree City, GA </i></p>
+        <p id="employment-powers-date" class="employment-powers-info"><i>January 2021 – July 2021</i></p>
+        <p id="employment-powers-position" class="employment-powers-info"><i>HVAC Installation Helper</i></p>
+
+        <li class="employment-powers-roles">
             Installed and serviced home comfort systems for residential and commercial customers.
+        </li>
+        <li class="employment-powers-roles">
             Operated heavy machinery, routinely transported HVAC units, and fabricated sheet metal.
-            Improved my ability to work closely with management, as well as independently as a lead,
-            and provided excellent customer care and satisfaction.
+        </li>
+        <li class="employment-powers-roles">
+            Improved my ability to work closely with management, as well as independently as a lead, and provided excellent customer care and satisfaction.
         </li>
 
-        <p>GuildQuality, Atlanta, GA January 2019 – March 2020</p>
-        <p>Customer Experience Representative</p>
+        <br><br>
 
-        <li>
+        <h3 id="employment-guildquality" class="employment-guildquality-info"><u>GuildQuality</u></h3>
+        <p id="employment-guildquality-location" class="employment-guildquality-info"><i>Atlanta, GA</i></p>
+        <p id="employment-guildquality-date" class="employment-guildquality-info"><i>January 2019 – March 2020</i></p>
+        <p id="employment-guildquality-position" class="employment-guildquality-info"><i>Customer Experience Representative</i></p>
+
+        <li class="employment-guildquality-roles">
             Called homeowners to solicit feedback about their experience working with members.
+        </li>
+        <li class="employment-guildquality-roles">
             Solved problems quickly and efficiently under pressure to satisfy the needs for the
             homeowner.
+        </li>
+        <li class="employment-guildquality-roles">
             Improved my ability to multi-task and work between multiple computer tabs and programs
             efficiently.
         </li>
 
+        <br><br>
 
-        <p>Chili’s, Milledgeville, GA April 2018 – August 2018</p>
-        <p>Host</p>
 
-        <li>
-            Provided an excellent experience by assisting all of the guests’ needs.
+
+        <h3 id="employment-chilis" class="employment-chilis-info"><u>Chili’s</u></h3>
+        <p id="employment-chilis-location" class="employment-chilis-info"><i>Milledgeville, GA</i></p>
+        <p id="employment-chilis-date" class="employment-chilis-info"><i>April 2018 – August 2018</i></p>
+        <p id="employment-chilis-position" class="employment-chilis-info"><i>Host</i></p>
+
+        <li class="employment-chilis-roles">
+            Provided an excellent experience by assisting all the guests’ needs.
+        </li>
+        <li class="employment-chilis-roles">
             Worked on a team and effectively solved problems to keep customers happy.
+        </li>
+        <li class="employment-chilis-roles">
             Developed leadership skills when training new employees.
         </li>
 
+        <br><br>
 
-        <p>Atlanta Fly Fishing Show, Atlanta, GA February 2018</p>
-        <p>Cashier</p>
 
-        <li>
+
+        <h3 id="employment-affs" class="employment-affs-info"><u>Atlanta Fly Fishing Show</u></h3>
+        <p id="employment-affs-location" class="employment-affs-info"><i>Atlanta, GA</i></p>
+        <p id="employment-affs-date" class="employment-affs-info"><i>February 2018</i></p>
+        <p id="employment-affs-position" class="employment-affs-info"><i>Cashier</i></p>
+
+        <li class="employment-affs-roles">
             Assisted with set up and clean-up of event and processed cash transactions for event attendees.
+        </li>
+        <li class="employment-affs-roles">
             Validated tickets for event attendees to enter to the show.
         </li>
 
+        <br><br>
 
-        <p>Call It Yours Casseroles, Peachtree City, GA September 2016 – May 2017</p>
-        <p>Sales Associate</p>
 
-        <li>
+
+        <h3 id="employment-callityours" class="employment-callityours-info"><u>Call It Yours Casseroles</u></h3>
+        <p id="employment-callityours-location" class="employment-callityours-info"><i>Peachtree City, GA</i></p>
+        <p id="employment-callityours-date" class="employment-callityours-info"><i>September 2016 – May 2017</i></p>
+        <p id="employment-callityours-position" class="employment-callityours-info"><i>Sales Associate</i></p>
+
+        <li class="employment-callityours-roles">
             Gained extensive understanding of the POS system and excelled at checking out customers’ products with a positive attitude.
+        </li>
+        <li class="employment-callityours-roles">
             Opened and closed the store, which included being responsible for counting money and signing for deliveries.
         </li>
+    </ul>
 
+    <ul>
         <h2 id="comp-skills-title">COMPUTER SKILLS</h2>
 
-        <li>
+        <li id="comp-skills-body">
             Python, HTML, CSS, Javascript, SQLite, Flask, Web-scraping (Selenium &amp; BeautifulSoup), Microsoft Excel, Microsoft Word, Microsoft Access, Microsoft PowerPoint, ALICE
         </li>
 
