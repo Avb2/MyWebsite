@@ -1,85 +1,108 @@
-#aboutme-1 {max-width: 700px;
-            text-align: center;
-            padding-left: 370px;
-            font-size: 115%;}
+html {text-align: center;}
+
+#aboutme-1 {text-align: center;
+margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 20px;}
+
 
 #header {border-bottom:3px solid #060404;
             text-align: center;
             background-color: #e2dfdf;
             padding-bottom: 5px;}
 
-.aboutme-body {text-align: center;
+#aboutme-body {text-align: center;
                 border-bottom: 1px solid black;
                 padding-bottom: 5px;}
 
 #resume {border: 1px black solid;
-            margin-left: 50px;
-            margin-right:50px;
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 5px;}
 
+
+#myName {margin-left: 550px;}
+
 #email-number-city {border-bottom: 1px black solid;
-                    padding-bottom: 8px;}
+                    padding-bottom: 8px;
+    margin-left: 450px;
+text-align: center;}
 
 #education-title {text-align: center;
                     padding-bottom: 8px;}
 
 .school {font-size: 120%;
         list-style-position: inside;
-        padding-left: 365px;}
+    margin-right: 400px;
+    margin-left: 370px;
+    padding-bottom: 20px;}
 
 #employment-title {border-top: 1px black solid;
                     padding-top: 20px;
-                    padding-bottom: 8px;}
+                    padding-bottom: 25px;}
 
 #comp-skills-title {border-top: 1px black solid;
                     padding-top: 5px;}
 
-.objective {text-align: center;}
+.objective {text-align: center;
+    padding-top: 25px;}
+
+#objective-body {margin-left: 200px;
+margin-right: 200px;}
 
 .resume-employment {list-style-position: inside;
                     padding-right: 38px;}
 
 #resume-education {border-top: 1px black solid;
-                    padding-top: 5px;
-                    padding-right: 38px;}
+    padding-top: 5px;
+    padding-right: 38px;}
+
+.education-info {margin: auto; text-align: center;}
+
 li {text-align: center;
     list-style-position: inside;
-    width: 450px;}
+    margin-right: 450px;
+margin-left: 450px;}
 
-ul {margin: 0 auto;}
+ul {margin: 0 auto;
+text-align: center;}
 
-.employment-publix-roles {padding-left: 363px;
-                        line-height: 20px;}
+#employment-powers {padding-bottom: 20px;}
+
+#employment-publix {padding-bottom: 20px;}
+
+#employment-guildquality {padding-bottom: 20px;}
+
+#employment-affs {padding-bottom: 20px;}
+
+#employment-chilis {padding-bottom: 20px;}
+
+#employment-callityours {padding-bottom: 20px;}
+
+.employment-publix-roles {line-height: 20px;}
 
 .employment-publix-info {line-height: 8px;}
 
-.employment-guildquality-roles {padding-left: 363px;
-                                line-height: 20px;}
+.employment-guildquality-roles {line-height: 20px;}
 
 .employment-guildquality-info {line-height: 8px;}
 
-.employment-affs-roles {padding-left: 363px;
-                        line-height: 20px;}
+.employment-affs-roles {line-height: 20px;}
 
 .employment-affs-info {line-height: 8px;}
 
-.employment-powers-roles {padding-left: 363px;
-                        line-height: 20px;}
+.employment-powers-roles {line-height: 20px;}
 
 .employment-powers-info {line-height: 8px;}
 
-.employment-chilis-roles {padding-left: 363px;
-                        line-height: 20px;}
+.employment-chilis-roles {line-height: 20px;}
 
 .employment-chilis-info {line-height: 8px;}
 
 .employment-callityours-info {line-height: 8px;}
 
-.employment-callityours-roles {padding-left: 363px;
-                        line-height: 20px;}
+.employment-callityours-roles {line-height: 20px;}
 
-#comp-skills-title {padding-top: 10px; padding-right: 25px;}
+#comp-skills-title {padding-top: 20px;
+padding-bottom: 15px;}
 
-#comp-skills-body {padding-left: 363px;}
