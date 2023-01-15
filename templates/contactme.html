@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <style>
-        #header {border-bottom:1px solid #060404; text-align: center; background-color: #e2dfdf;}
-        .contact-info {text-align: center;}
-    </style>
+    <link rel="stylesheet" type="text/css" href="../static/stylesheets/contactmeStylesheet.css">
+
+    <script>
+        function getNameNumber() {
+            let name = document.getElementById('name').value;
+            let number = document.getElementById('number').value;
+            console.log(`Name: ${name}, Number: ${number}`);
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+
+<body>
 
 <div id="header">
     <h1>AlexanderBringuel.com</h1>
@@ -20,12 +29,29 @@
     <br>
 </div>
 
-<body class="contact-info">
-    <br><br>
-    Name <input type="text", class="contact-info">
+<div id="contact-me-div">
+    <h3 id="looking-for-somebody">Looking for someone <span id="reliable">reliable?</span> <span id="hardworking">Hardworking?</span> <span id="responsible">Responsible?</span></h3>
     <br>
-    Number <input type="text", class="contact-info">
+    <p class="contactme-body lead">Align yourself with others who are motivated towards the same goal as you.</p>
+    <p id="getotknow" class="contactme-body">My name is Alexander Bringuel, and I would love to join your team! Feel free to contact me at 404-804-1287 or email me. Or you can provide your name and phone number, I will contact you as soon as possible!</p>
+</div>
+
+<div class="contact-info p-5 my-5 border">
     <br><br>
-    <button onclick="submitinfo()">Submit</button>
+    <label>
+        Your Name
+    <input id="name" class="contact-info form-control" type="text" title="Insert your name here">
+    </label>
+    <label>
+        Your Number
+    <input id="number" class="contact-info form-control" type="text" title="Insert number here">
+    </label>
+    <br><br>
+    <button class="submit-btn btn-outline-primary" onclick="getNameNumber()">Submit</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div>
+
 </body>
 </html>
+
