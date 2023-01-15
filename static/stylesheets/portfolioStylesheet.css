@@ -3,6 +3,8 @@
     background-color: #e2dfdf;
     padding-bottom: 5px;}
 
-.portfolio-body {text-align: center;
-    list-style-position: inside;
-    font-size: 120%;}
+#portfolio-body {padding-top: 20px;
+    text-align: center;
+    list-style-position: inside;}
+
+#list-socials {font-size: 130%; padding-right: 50px;}
