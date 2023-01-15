@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" type="text/css" href="../static/stylesheets/aboutMeStylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+
+<body>
 
 <div id="header">
     <h1>AlexanderBringuel.com</h1>
@@ -16,19 +19,19 @@
     <button id="portfolio-button"><a href="http://127.0.0.1:5000/portfolio/">Portfolio</a></button>
 </div>
 
-<body class="aboutme-body">
-    <p id="aboutme-1">
-        Hello! I am Alexander Bringuel. I am 23 years old and interested in pursuing a career in software development. I have an associates degree in Business Administration from Georgia Military College, and I am currently pursuing a bachelors degree in Computer Information Systems. I am on track to graduate in Fall of 2024.</p>
+<div id="aboutme-body">
+    <p class="lead" id="aboutme-1">
+        Hello! I am Alexander Bringuel. I am 23 years old and interested in pursuing a career in software development. I have an associates degree in Business Administration from Georgia Military College, and I am currently pursuing a bachelors degree in Computer Information Systems from Georgia State University. I am on track to graduate in Fall of 2024.</p>
     <br>
-</body>
+</div>
 
 <div id="resume">
-    <h1><u>ALEX BRINGUEL</u></h1>
+    <h1 id="myName"><u>ALEX BRINGUEL</u></h1>
 
     <strong id="email-number-city">bringuel.alexander@gmail.com | (404) 804-1287 | Fayetteville, GA</strong>
 
     <h2 class="objective"><b><u>OBJECTIVE</u></b></h2>
-    <p class="objective">Reliable and hard worker with an associate degree in Business Administration from Georgia Military College. Looking to use my ability to lift heavy objects and efficiently work in a fast-paced environment at a company that offers a potential for growth.</p>
+    <p class="objective" id="objective-body">Reliable and hard worker with an associate degree in Business Administration from Georgia Military College. Looking to use my ability to lift heavy objects and efficiently work in a fast-paced environment at a company that offers a potential for growth.</p>
 
 
     <ul  class="education" id="resume-education">
@@ -40,10 +43,10 @@
         <li class="school" id="education-gast"><u>
             Georgia State University
         </u></li>
-        <p id="education-gast-grad"><i>
+        <p id="education-gast-grad" class="education-info"><i>
             Graduation date: December 2024
         </i></p>
-        <p id="education-gast-degree"><i>
+        <p id="education-gast-degree" class="education-info"><i>
             Bachelors of Computer Information Systems
         </i></p>
 
@@ -54,10 +57,10 @@
         <li class="school" id="education-gmc"><u>
             Georgia Military College
         </u></li>
-        <p id="education-gmc-grad"><i>
+        <p id="education-gmc-grad" class="education-info"><i>
             Graduation date: March 2020
         </i></p>
-        <p id="education-gmc-degree"><i>
+        <p id="education-gmc-degree" class="education-info"><i>
             Associate of Business Administration
         </i></p>
 
@@ -67,7 +70,7 @@
         <li class="school" id="education-gcsu"><u>
             Georgia College & State University
         </u></li>
-        <p id="education-gcsu-grad"><i>
+        <p id="education-gcsu-grad" class="education-info"><i>
             Fall 2017 – Fall 2018
         </i></p>
 
@@ -77,11 +80,11 @@
         <li class="school" id="education-smhs"><u>
             Starr’s Mill High School
         </u></li>
-        <p id="education-smhs-grad"><i>
+        <p id="education-smhs-grad" class="education-info"><i>
             Graduation date: May 2017
         </i></p>
 
-        <p id="education-smhs-dualenrollment"><i>
+        <p id="education-smhs-dualenrollment" class="education-info"><i>
             Clayton State Dual Enrollment
         </i></p>
 
@@ -199,11 +202,14 @@
         <h2 id="comp-skills-title">COMPUTER SKILLS</h2>
 
         <li id="comp-skills-body">
-            Python, HTML, CSS, Javascript, SQLite, Flask, Web-scraping (Selenium &amp; BeautifulSoup), Microsoft Excel, Microsoft Word, Microsoft Access, Microsoft PowerPoint, ALICE
+            Python, HTML, CSS, Javascript, Bootstrap, SQLite, Flask, Web-scraping (Selenium &amp; BeautifulSoup), Microsoft Excel, Microsoft Word, Microsoft Access, Microsoft PowerPoint, ALICE
         </li>
 
     </ul>
 
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
+
